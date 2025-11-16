@@ -59,3 +59,9 @@ The dataset was downloaded and then organized locally for experimentation and de
 
 The project detects multiple PCB defects, including missing holes, open circuits, and short circuits, using only classic image-processing techniques. It does this without any machine learning model or training data. The pipeline employs precise image registration, difference imaging, adaptive thresholding, and geometric analysis to achieve reliable defect detection in a simple, fast, and cost-effective way. This makes the approach lightweight and easy to use in real-world inspection environments.
 
+**Contributors:**
+1.Tanmayi MK(PES1UG23EC324)
+2.K Shrimanth Raj (PES1UG23EC139)
+3.Kshmya Panchal(PES1UG23EC152)
+
+
