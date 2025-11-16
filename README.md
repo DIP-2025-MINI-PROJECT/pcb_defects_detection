@@ -61,5 +61,100 @@ The project detects multiple PCB defects, including missing holes, open circuits
 
 **Contributors:**
 1.Tanmayi MK(PES1UG23EC324)
+
 2.K Shrimanth Raj (PES1UG23EC139)
+
 3.Kshmya Panchal(PES1UG23EC152)
+
+**Steps**
+
+1. Clone Repository
+   
+git clone https://github.com/DIP-2025-MINI-PROJECT/pcb_defects_detection.git
+
+3. Install Dependencies
+
+MATLAB R2022a or above
+
+Image Processing Toolbox
+
+3. Run the Code
+
+Open MATLAB → run the main script:
+
+pcb_defect_detection.m
+
+**Outputs**
+
+-Grayscale conversion of template and test images
+
+-Noise removal using Wiener filtering
+
+-Image registration (alignment using similarity transform)
+
+-Absolute difference image
+
+-Adaptive thresholding and binary mask
+
+-Morphological operations to clean noise
+
+**Final Output**
+
+-Defect mask showing missing holes / open circuits / short circuits
+
+-Red bounding boxes marking defect locations on the color PCB image
+
+-Automatic PASS / FAIL classification
+
+-Defect count displayed in the output window
+
+**Limitations**
+
+*The system relies on a template image, so even small misalignment or lighting variations can affect detection accuracy.
+
+*Performance depends heavily on the quality and resolution of PCB images.
+
+*Only structural defects detectable through image differences can be identified; defects like component polarity mistakes or microscopic cracks may not be detected.
+
+*Sensitivity values for thresholding may require manual tuning for different PCB datasets.
+
+*The approach assumes PCBs are placed in a uniform orientation; extreme rotation or perspective distortion reduces accuracy.
+
+**Future Work**
+
+*Integrating automatic rotation correction using advanced feature matching (SIFT/SURF).
+
+*Improving robustness by adding illumination normalization or HDR preprocessing.
+
+*Extending the system to detect more complex defects such as component issues or solder bridges.
+
+*Creating a more intelligent classifier using machine learning or deep learning to handle varied PCB designs.
+
+*Adding a real-time camera-based inspection system for industrial use.
+
+*Developing a full GUI for easy operator use and quick batch processing.
+
+**References:**
+
+[1] S. S. Shinde, S. A. Wankhede, S. G. Shete, and M. G. Chinchole, “PCB Fault
+Detection Using Image Processing in MATLAB,” IOSR Journal of Engineering, pp.
+61–65, MOMENTUM-19, 2019.
+
+[2] I. Ibrahim, S. A. Rahman, and S. A. Bakar, “Printed Circuit Board Inspection
+System with Defect Classification Capability,” International Journal of Innovative
+Management, Information & Production, 2012.
+
+[3] B. Zitová and J. Flusser, “Image Registration Methods: A Survey,” Image and
+Vision Computing, vol. 21, pp. 977–1000, 2003.
+
+[4] H. Rau and C. H. Wu, “Automatic Optical Inspection for Detecting Defects on
+Printed Circuit Board Inner Layers,” International Journal of Advanced
+Manufacturing Technology, vol. 25, no. 9–10, pp. 940–946, 2005.
+
+[5] R. C. Gonzalez and R. E. Woods, Digital Image Processing, 4th ed. Pearson,
+2018.
+
+[6] S. Jayaraman, S. Esakkirajan, and T. Veerakumar, Digital Image Processing.
+McGraw-Hill Education, 2011.
+
+[7] MathWorks, “Image Processing Toolbox Documentation,”
