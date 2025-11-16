@@ -52,6 +52,13 @@ Corresponding defective PCB images with missing holes, open circuits, and short 
 
 These images were selected and organized manually to test multiple defect types.
 
+**Outputs**
+<img width="930" height="493" alt="op13" src="https://github.com/user-attachments/assets/5a934303-d5d9-4212-bf19-36e252575260" />
+<img width="1061" height="621" alt="op4" src="https://github.com/user-attachments/assets/8ed1a804-c7a5-4b56-849c-b76cceb30a40" />
+<img width="1258" height="665" alt="op5" src="https://github.com/user-attachments/assets/3264cd0e-70f4-4826-8e8b-0bc2d78f9cfd" />
+
+
+
 **Links**
 
 All PCB images used in this project were collected from the Kaggle dataset:
