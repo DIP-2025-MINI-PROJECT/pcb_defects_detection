@@ -10,19 +10,23 @@ This project builds an automatic PCB defect detection system using MATLAB image 
 
 **Course Concepts Used**
 
--Digital Image Processing
+-Grayscale image conversion
 
--Grayscale conversion
+_Image resizing and sampling
 
--Image resizing and normalization
+-Noise removal
 
--Noise reduction (Wiener filtering)
+-Image registration 
+
+-Absolute difference image computation
+
+-Adaptive thresholding
 
 -Morphological operations
 
 -Connected component analysis
 
--Feature extraction (area, perimeter, circularity)
+-Feature extraction
 
 **Additional Concepts Used**
 
